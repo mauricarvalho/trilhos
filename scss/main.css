@@ -14,15 +14,23 @@ body {
 	margin: 0;
 }
 .logo {
-	float: left;
+	margin-top: -15px;
+	width: 260px;
+	height: 94px;
   }
   @media (max-width: 767px) {
 	.logo {
-		float: left;
-		width: 221px;
-		height: 40px;
-		margin-top: 10px;
+		margin-top: 0px;
+		width: 179px;
+		height: 61px;
 	}
+}
+
+@media (max-width: 768px) {
+    .btn, .btn-mobile {
+		width:100%;
+		margin-left:0px;
+    }
 }
 
 .img-prod {
@@ -6011,6 +6019,8 @@ body header.sticky .navbar-brand {
 	line-height: 15px;
 	transition: 0.8s;
 	z-index: 999;
+	width: 234px;
+	height: 85px;
 }
 body header.sticky .navbar-brand h1 {
 	font-size: 35px;
@@ -7204,8 +7214,7 @@ body #contact-page .submit-button {
 body #features-page {
 /* subsection1 ends /--------------------------------------------------------- */ }
 body #features-page .subsection1 {
-	background-color: #fff;
-	background-image: url(../img/bg-feature.jpg);
+	background-color: #34363e;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
@@ -7426,11 +7435,12 @@ body #features-page .subsection3 .right-section .section-heading .subheading, bo
 	color: #fff;
 }
 body #features-page .subsection3 .right-section .featureblock {
-	margin-bottom: 30px;
-	display: inline-block;
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+
 }
 body #features-page .subsection3 .right-section .featureblock .icon {
-	text-align: right;
+	text-align: left	;
 	font-size: 30px;
 	line-height: 34px;
 }
